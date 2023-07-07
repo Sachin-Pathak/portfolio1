@@ -1,0 +1,103 @@
+#services {
+    height: 90vh;
+    padding: 4rem;
+    text-align: center;
+    background-color: aliceblue;
+    
+   /* background: linear-gradient(to bottom,white,aliceblue);*/
+    
+    
+  }
+  
+  #services h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #services section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .serviceBox1,
+  .serviceBox2,
+  .serviceBox3,
+  .serviceBox4 {
+    width: 70%;
+    height: 60%;
+    background-color: #f0f0f0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .serviceBox1:hover,
+  .serviceBox2:hover,
+  .serviceBox3:hover,
+  .serviceBox4:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 3px 8px lightblue;
+
+    
+  }
+  
+  /*.serviceBox1 h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0.7rem;
+  }*/
+  
+  .serviceBox1 p,
+  .serviceBox2 span,
+  .serviceBox3 span,
+  .serviceBox4 span {
+    font-size: 1.5rem;
+    padding: 2%;
+    margin: auto;
+  }
+  .serviceBox1,
+  .serviceBox2,
+  .serviceBox3,
+  .serviceBox4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  .serviceBox1 svg{
+    color: #7a83ff;
+    width: 4rem;
+    height: 4rem;
+  }
+  .serviceBox2 svg{
+    color: orangered;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .serviceBox3 svg {
+    color: #3DDC84;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .serviceBox4 svg {
+    color: #0078d4;
+    width: 4rem;
+    height: 4rem;
+  }
+

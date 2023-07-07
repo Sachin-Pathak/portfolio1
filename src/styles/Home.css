@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,500&display=swap');
+#home{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+#home .theory {
+ height: 100%;
+ width: 100%;
+ margin: 1%;
+ padding-left: 4.33vmax;
+ padding-top: 4vmax;
+
+
+
+}
+
+#home.theory h1 {
+  font-size: 3rem;
+  margin-bottom: 60px;
+  
+}
+#home .theory h1 p{
+  font-size: 4rem;
+  margin: 60px;
+  
+  
+  
+}
+
+#home .theory a{
+  
+ padding: 1rem 2.5rem;
+ background-color: aliceblue;
+  margin: 57px;  
+  font-size: larger;
+  font-weight: 500;
+}
+
+#home .theory a:hover {
+  background-color: #9ED8F0;
+}
+/*
+#home .theory a:last-child{
+  background-color:aliceblue;
+  font-size: larger;
+  font-weight: 500;
+}*/
+
+#home .theory article {
+  margin-top: 48px;
+  margin-right: 0px;
+  width: 10rems;
+  
+  
+
+}
+#home .theory article:first-child{
+  content: "";
+  
+  background-color: aliceblue;
+  font-weight: 500;
+  border-radius: 50px;
+  z-index: -1;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+#home .theory article:last-child{
+  content: "";
+  background-color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  border-radius: 50px;
+  z-index: -1;
+  font-size: 2rem;
+  
+}
+
+
+#home .theory article p {
+  font-size: 2rem;
+  
+}
+aside{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+
+}
+
+#home .theory article span {
+  font-size: 1.2rem;
+  
+}
+
+#home .image {
+  width: 90%;
+  padding: 1%;
+  margin: -7%;
+}
+
+#home .image img {
+  width: 59vmax;
+  object-fit: contain;
+  height: 40vmax;
+}
+#home .image img:last-child{
+  content:"";
+  width:45vmax;
+  height: 60vmax;
+  /*background-color: #D4F1F9;*/
+  background-color: aliceblue;
+  position: absolute;
+  z-index: -1;
+  /*border-radius: 50%;*/
+}

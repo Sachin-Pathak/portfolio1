@@ -1,0 +1,63 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+  .navbar {
+    
+    width: 92%;
+    height: 70px;
+    background-color: #F0F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.33vmax;
+    position: sticky;
+    top: 0;
+    z-index: 60;
+  }
+  .navbar h2{
+    
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%
+  }
+  .navbar .name{
+    
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    font-size: medium;
+    padding: 13%;
+  }
+  .navbar .name a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+      color: rgb(10, 10, 10);
+      font-weight: 500;
+     
+      transition: all 0.3s;
+      letter-spacing: 2px;
+  }
+  .navbar .name a:hover{
+    color: orangered;
+    font-size: large;
+  }
+  .buton{
+    border: 3px solid black;
+    padding: 0.5rem 2rem;
+    background-color: black;
+    border-radius: 2px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+  }
+  .buton:hover{
+    background-color: white;
+    color:  black;
+    font-size: large;
+  }
+
+  

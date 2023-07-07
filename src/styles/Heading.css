@@ -1,0 +1,13 @@
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1%;
+    margin: 10%;
+
+}
+.heading div{
+    background-color: black;
+    height: 1px;
+    width: 30vw;
+}

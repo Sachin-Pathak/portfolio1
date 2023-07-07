@@ -1,0 +1,70 @@
+/* styles/AboutMe.css */
+
+#work {
+    padding: 40px;
+    height:90vh;
+    background-color: antiquewhite;
+  }
+  
+  #work h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+    .profile-picture {
+        width: 50%;
+        height: 55%;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+        box-shadow: 0 7px 22px #d7d9ff;
+      }
+
+      .bio {
+        max-width: 600px;
+        background-color: aliceblue;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .bio h3 {
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      .bio p {
+        font-size: 18px;
+       
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 20px;
+      }
+      
+      .bio p:last-child {
+        margin-bottom: 0;
+      }
+      
+      @media (max-width: 768px) {
+        .content {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      
+        .profile-picture {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
